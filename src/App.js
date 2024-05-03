@@ -40,8 +40,7 @@ function App(){
 
     setListItems((currentItem)=>{
 
-      return currentItem.filter((item)=>{return item.id !== id
-      });
+      return currentItem.filter((item)=>{return item.id !== id});
     });
   }
 
